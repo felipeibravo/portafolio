@@ -1,0 +1,42 @@
+.presentacion{
+	text-align: center;
+	p{
+		max-width: 750px;
+		float: none;
+		margin: 0 auto;
+	}
+}
+
+.skills1{
+	.progress{
+	line-height: 10px;
+	height: 0.7rem;
+	position: relative;
+
+	.progress-bar{
+		background-color: $primary-color;
+	}
+}
+}
+
+.skills2{
+	.progress{
+	line-height: 10px;
+	height: 0.7rem;
+	position: relative;
+
+	.progress-bar{
+		background-color: $secondary-color;
+	}
+}	
+}
+
+.proyectos{
+	margin-bottom: 20px;
+	text-align: justify;
+	padding: 0 10px 0 10px;
+
+	.col-md-4{
+		margin-bottom: 15px;
+	}
+}

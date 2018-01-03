@@ -1,0 +1,376 @@
+@import url(http://fonts.googleapis.com/css?family=Fauna+One|Muli);
+@import url(https://fonts.googleapis.com/css?family=Asap:400,700);
+/*
+	Tema Bootstrap para portafolio
+	By: Felipe Bravo B.
+*/
+/* line 1, ../scss/base/_base.scss */
+body {
+  font-family: Asap, sans-serif;
+}
+
+/* line 5, ../scss/base/_base.scss */
+h1 {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* line 10, ../scss/base/_base.scss */
+:target:before {
+  content: "";
+  display: block;
+  height: 55px;
+  /* fixed header height*/
+  margin: -55px 0 0;
+  /* negative fixed header height */
+}
+
+/* line 18, ../scss/base/_base.scss */
+li span {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* line 24, ../scss/base/_base.scss */
+.title {
+  font-weight: bold;
+}
+
+/* line 1, ../scss/layout/_header.scss */
+header {
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+/* line 7, ../scss/layout/_header.scss */
+.showcase {
+  background: linear-gradient(to bottom, #4763e0, #4bb2f2);
+}
+
+/* line 1, ../scss/layout/_footer.scss */
+footer {
+  background: linear-gradient(to top, #4763e0, #4bb2f2);
+}
+
+/* line 5, ../scss/layout/_footer.scss */
+#mainform {
+  max-width: 450px;
+  margin: 0;
+  padding: 10px 0 30px 0;
+  font-family: 'Fauna One', serif;
+  float: none;
+  margin: 0 auto;
+}
+/* line 13, ../scss/layout/_footer.scss */
+#mainform #form {
+  float: none;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0 0 15px;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  margin: 20px 250px 0 0;
+}
+/* line 25, ../scss/layout/_footer.scss */
+#mainform h3 {
+  text-align: center;
+  font-size: 20px;
+}
+/* line 30, ../scss/layout/_footer.scss */
+#mainform input {
+  width: 100%;
+  height: 35px;
+  margin: 0 0 5px 5px;
+  border: 1px solid #999;
+  border-radius: 3px;
+}
+/* line 38, ../scss/layout/_footer.scss */
+#mainform input[type=button] {
+  float: none;
+  margin: 10px auto;
+  width: 80%;
+  background-color: #373373;
+  border: 1px solid white;
+  font-family: 'Fauna One', serif;
+  font-Weight: bold;
+  font-size: 18px;
+  color: white;
+}
+/* line 48, ../scss/layout/_footer.scss */
+#mainform input[type=button]:hover {
+  background-color: #4e48a0;
+}
+/* line 53, ../scss/layout/_footer.scss */
+#mainform textarea {
+  width: 100%;
+  height: 80px;
+  margin-top: 5px;
+  border-radius: 3px;
+  padding: 5px;
+  resize: none;
+}
+/* line 62, ../scss/layout/_footer.scss */
+#mainform span {
+  color: red;
+}
+/* line 66, ../scss/layout/_footer.scss */
+#mainform #note {
+  color: black;
+  font-Weight: 400;
+}
+/* line 71, ../scss/layout/_footer.scss */
+#mainform #returnmessage {
+  font-size: 14px;
+  color: green;
+  text-align: center;
+}
+
+/* line 79, ../scss/layout/_footer.scss */
+#social {
+  text-align: center;
+}
+/* line 82, ../scss/layout/_footer.scss */
+#social a {
+  position: relative;
+  padding-left: 44px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 34px;
+  width: 34px;
+  padding: 0;
+  border: none;
+  background-color: #fff;
+  margin: 10px;
+}
+/* line 97, ../scss/layout/_footer.scss */
+#social .fa {
+  border: none;
+  text-align: center;
+  width: 100% !important;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 32px;
+  line-height: 34px;
+  font-size: 1.6em;
+  text-align: center;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* line 1, ../scss/layout/_nav.scss */
+.navbar {
+  background-color: #151515;
+}
+
+/* line 5, ../scss/layout/_nav.scss */
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+/* line 8, ../scss/layout/_nav.scss */
+.navbar-nav li {
+  float: none;
+  display: inline-block;
+}
+
+/* line 2, ../scss/modules/_blocks.scss */
+.proyectos .block1 {
+  box-shadow: 0 0 10px grey;
+  background-color: #eeeeee;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+/* line 10, ../scss/modules/_blocks.scss */
+.proyectos .block2 {
+  box-shadow: 0 0 10px grey;
+  background-color: #dddddd;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+/* line 26, ../scss/modules/_buttons.scss */
+.myButt {
+  justify-content: center;
+  outline: none;
+  border: none;
+  padding: 3px;
+  display: flex;
+  margin: 0px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: transparent;
+  position: relative;
+  border: 2px solid;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+}
+
+/* line 43, ../scss/modules/_buttons.scss */
+.one {
+  border-color: #4bb2f2;
+  overflow: hidden;
+  color: #4bb2f2;
+}
+/* line 48, ../scss/modules/_buttons.scss */
+.one .insider {
+  background-color: #fff;
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  left: -135px;
+  transform: rotateZ(45deg);
+  -webkit-transform: rotateZ(45deg);
+  -moz-transform: rotateZ(45deg);
+  -o-transform: rotateZ(45deg);
+  -ms-transform: rotateZ(45deg);
+}
+/* line 58, ../scss/modules/_buttons.scss */
+.one:visited {
+  border-color: #4bb2f2;
+  overflow: hidden;
+  color: #4bb2f2;
+}
+/* line 65, ../scss/modules/_buttons.scss */
+.one:hover {
+  border-color: #fff;
+  color: #fff;
+}
+/* line 69, ../scss/modules/_buttons.scss */
+.one:hover .insider {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  left: 135px;
+}
+
+/* line 77, ../scss/modules/_buttons.scss */
+.two {
+  color: #fff;
+  border-color: transparent;
+}
+/* line 81, ../scss/modules/_buttons.scss */
+.two:before {
+  width: 0;
+  height: 2px;
+  content: " ";
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
+/* line 93, ../scss/modules/_buttons.scss */
+.two:after {
+  width: 0;
+  height: 3px;
+  content: " ";
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  top: 100%;
+}
+/* line 104, ../scss/modules/_buttons.scss */
+.two:hover {
+  letter-spacing: 8px;
+  color: #fff;
+}
+/* line 108, ../scss/modules/_buttons.scss */
+.two:hover:before {
+  width: 100%;
+  left: 0;
+}
+/* line 112, ../scss/modules/_buttons.scss */
+.two:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+/* line 1, ../scss/modules/_components.scss */
+.profilepic {
+  max-height: 300px;
+  border-radius: 10px;
+  float: none;
+  margin: 20px auto;
+}
+
+/* line 8, ../scss/modules/_components.scss */
+.morecontent span {
+  display: none;
+}
+
+/* line 11, ../scss/modules/_components.scss */
+.morelink {
+  display: block;
+}
+
+/* line 15, ../scss/modules/_components.scss */
+.more a {
+  max-width: 160px;
+}
+
+/* line 1, ../scss/modules/_sections.scss */
+.presentacion {
+  text-align: center;
+}
+/* line 3, ../scss/modules/_sections.scss */
+.presentacion p {
+  max-width: 750px;
+  float: none;
+  margin: 0 auto;
+}
+
+/* line 11, ../scss/modules/_sections.scss */
+.skills1 .progress {
+  line-height: 10px;
+  height: 0.7rem;
+  position: relative;
+}
+/* line 16, ../scss/modules/_sections.scss */
+.skills1 .progress .progress-bar {
+  background-color: #4763e0;
+}
+
+/* line 23, ../scss/modules/_sections.scss */
+.skills2 .progress {
+  line-height: 10px;
+  height: 0.7rem;
+  position: relative;
+}
+/* line 28, ../scss/modules/_sections.scss */
+.skills2 .progress .progress-bar {
+  background-color: #4bb2f2;
+}
+
+/* line 34, ../scss/modules/_sections.scss */
+.proyectos {
+  margin-bottom: 20px;
+  text-align: justify;
+  padding: 0 10px 0 10px;
+}
+/* line 39, ../scss/modules/_sections.scss */
+.proyectos .col-md-4 {
+  margin-bottom: 15px;
+}
